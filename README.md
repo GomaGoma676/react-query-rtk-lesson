@@ -4,7 +4,7 @@
     yarn --version
 ### 1-2.  create-react-app
     npx create-react-app . --template redux-typescript
-### 1-3.  Tailwind CSS のインストール
+### ~~1-3.  Tailwind CSS のインストール~~
 ### https://tailwindcss.com/docs/guides/create-react-app
     yarn add -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
     yarn add @craco/craco
