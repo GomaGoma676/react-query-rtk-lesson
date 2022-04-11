@@ -8,7 +8,7 @@
 ### https://tailwindcss.com/docs/guides/create-react-app
     yarn add -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
     yarn add @craco/craco
-### 1-4.  package.json scriptの編集
+### ~~1-4.  package.json scriptの編集~~
 ~~~
   {
     // ...
@@ -20,7 +20,7 @@
     },
   }
 ~~~
-### 1-5.  craco.configの作成
+### ~~1-5.  craco.configの作成~~
     touch craco.config.js
 ~~~
 module.exports = {
@@ -34,9 +34,9 @@ module.exports = {
   },
 }
 ~~~
-### 1-6. tailwind.config.js, postcss.config.jsの生成
+### ~~1-6. tailwind.config.js, postcss.config.jsの生成~~
     npx tailwindcss init -p
-### 1-7. tailwind.config.jsのpurge設定追加
+### ~~1-7. tailwind.config.jsのpurge設定追加~~
 ~~~
 module.exports = {
     purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
